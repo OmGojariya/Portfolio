@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/b5c95a22b4347906-s.p.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-myfont {
+  font-family: 'MyFont';
+}
+
+.clip-star {
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
