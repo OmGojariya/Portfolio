@@ -20,7 +20,7 @@ const HeroPart = () => {
   return (
     <>
     <div className='min-h-[60vh] flex flex-col lg:flex-row justify-center items-center w-[95%] mx-auto gap-10 lg:gap-20'>
-       <div ref={textRef} className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl space-y-2 m-auto'
+       <div ref={textRef} className='text-5xl sm:text-6xl md:text-7xl lg:text-7xl space-y-2 m-auto'
 >
           <div className='flex items-center gap-3'>
                 <h1 style={{ fontFamily: 'MyFont' }}>HEY,</h1> 
